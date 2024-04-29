@@ -15,7 +15,27 @@ Professor: Leonardo Santiago Sidon da Rocha.
 
 
 ## 📰Descrição
-
+`PHP Inicialização:`
+<br>
+O código PHP começa com session_start(), que inicia ou resume uma sessão existente. Isso é importante para manter o estado da sessão entre diferentes requisições HTTP. <br>
+Em seguida, verifica-se se a variável de sessão $_SESSION['tasks'] existe. Se não existir, é inicializada como um array vazio.<br>
+`Receber e Manipular Dados do Formulário:`
+<br>
+Verifica-se se há uma variável $_GET['task_name']. Se existir, significa que um novo nome de tarefa foi submetido pelo formulário. Nesse caso, o nome da tarefa é adicionado ao array $_SESSION['tasks'] usando array_push(). Após a adição da tarefa, a variável $_GET['task_name'] é removida usando unset().<br>
+Verifica-se também se há uma variável $_GET['clear']. Se existir, significa que o botão "Limpar Tarefas" foi clicado. Nesse caso, o array $_SESSION['tasks'] é removido da sessão usando unset().<br>
+`HTML Formulário e Exibição das Tarefas:`
+<br>
+O HTML exibe um formulário simples para adicionar novas tarefas. O formulário envia os dados para a própria página usando o método GET.<br>
+Abaixo do formulário, a lista de tarefas é exibida usando um laço foreach. Ele itera sobre o array $_SESSION['tasks'] e exibe cada tarefa como um item de lista <li> No final da lista de tarefas, há um segundo formulário com um botão "Limpar Tarefas". Este formulário é usado para limpar todas as tarefas quando o botão é clicado.<br>
+`Estilo CSS e Rodapé:`
+<br>
+O código HTML inclui um link para um arquivo de estilo CSS externo para estilizar a página.<br>
+Um rodapé simples exibe o crédito do desenvolvedor.<br>
+<br>
+Em resumo, este código PHP e HTML cria uma aplicação web básica de gerenciamento de tarefas que permite adicionar novas tarefas, exibir uma lista de tarefas existentes e limpar todas as tarefas. As tarefas são armazenadas na sessão do usuário para persistência entre as requisições.
+<br>
+<br>
+![image](exemplodeuso.gif)
 
 ## ⚙️Funcionalidades
 | Métodos PHP | Funcionalidade |
@@ -49,3 +69,5 @@ Professor: Leonardo Santiago Sidon da Rocha.
 
 
 ## ✒️Autores
+ <img src="isabelle.png" width="20px"> Isabelle Nascimento de Oliveira <br>
+
