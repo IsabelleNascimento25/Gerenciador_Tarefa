@@ -61,11 +61,15 @@ Em resumo, este código PHP e HTML cria uma aplicação web básica de gerenciam
   
 
 ## 🔠Fontes consultadas
+
+     * https://www.youtube.com/watch?v=dJ49I-QYYUk&ab_channel=MonolitoPHP
+     
      * https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/Arrays
      
-     * https://g.co/kgs/E1D83Uw
+     * https://fonts.google.com/selection?query=ubuntu
+     
+     * https://www.html-color-codes.info/Codigos-de-Cores-HTML/
 
-     * https://cursos.alura.com.br/forum/topico-array-130461
 
 
 ## ✒️Autores
