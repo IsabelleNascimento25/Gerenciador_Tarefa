@@ -75,5 +75,7 @@ Em resumo, este código PHP e HTML cria uma aplicação web básica de gerenciam
 ## ✒️Autores
  Criador: andr_moreira@yahoo.com.br
 Canal do youtube: MonolitoPHP
-aluno: 
+<br>
+<br>
+Aluno: <br>
  <img src="isabelle.png" width="20px"> Isabelle Nascimento de Oliveira <br>
